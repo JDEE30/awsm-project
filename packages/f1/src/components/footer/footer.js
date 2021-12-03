@@ -21,10 +21,10 @@ const Footer = ({ state }) => {
             <h6 className="widget-title">Company</h6>
             <ul className="widget-list">
               <li><Link className="widget-list-link" link="/about/">About us</Link></li>
-              <li><Link className="widget-list-link" link="/services/">Services</Link></li>
-              <li><Link className="widget-list-link" link="/jobs/">Career</Link></li>
+              <li><Link className="widget-list-link" link="/nurses/">Nurses</Link></li>
+              <li><Link className="widget-list-link" link="/employers/">Employers</Link></li>
+              <li><Link className="widget-list-link" link="/contactus/">Contact us</Link></li>
               <li><Link className="widget-list-link" link="/blog/">Blog</Link></li>
-              <li><Link className="widget-list-link" link="/contact/">Contact</Link></li>
             </ul>
           </div>
           <div className="col-12 col-md-4 col-lg-2 footer-widget widget-four">

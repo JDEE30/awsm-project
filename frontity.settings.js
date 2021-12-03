@@ -3,8 +3,8 @@ const settings = {
   "state": {
     "frontity": {
       "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "title": "Staffing company for nurses - San Staffing",
+      "description": "Are you a nurse looking for your next gig? Check out our contracts for LVN's and Nurse Practitioners."
     }
   },
   "packages": [
@@ -18,20 +18,24 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "About us",
+              "About us/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Nurses",
+              "Nurses/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Employers",
+              "Employers"
             ],
             [
-              "About Us",
-              "/about-us/"
+              "Contact us",
+              "/Contact us/"
+            ],
+            [
+              "Blog",
+              "Blog"
             ]
           ],
           "featured": {

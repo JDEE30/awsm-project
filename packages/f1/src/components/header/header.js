@@ -8,7 +8,7 @@ const Header = ({ state }) => {
   return (
     <>
       <BrandContainer>
-        <StyledLink link="/">
+        <StyledLink link="/pages/homepage/">
           <Title><span>San Staffing</span></Title>
         </StyledLink>
         <MobileMenu />

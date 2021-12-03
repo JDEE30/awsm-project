@@ -4,6 +4,9 @@ import Link from "./link";
 import List from "./list";
 import FeaturedMedia from "./featured-media";
 
+// this file is for the blog post page  - the-beauties-of-gullfoss
+
+
 const Post = ({ state, actions, libraries }) => {
   // Get information about the current URL.
   const data = state.source.get(state.router.link);

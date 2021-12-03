@@ -14,28 +14,29 @@ const settings = {
         "theme": {
           "menu": [
             [
-              "Home",
-              "/"
+              "HomePage",
+              "./pages/HomePage"
             ],
             [
               "About us",
-              "About us/"
+              "/About us"
             ],
             [
               "Nurses",
-              "Nurses/"
+              "/Nurses"
             ],
             [
               "Employers",
-              "Employers"
+              "/Employers"
             ],
             [
               "Contact us",
-              "/Contact us/"
+              "/Contact us"
             ],
             [
               "Blog",
-              "Blog"
+              "/"
+
             ]
           ],
           "featured": {

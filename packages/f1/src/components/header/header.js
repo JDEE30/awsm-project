@@ -9,7 +9,7 @@ const Header = ({ state }) => {
     <>
       <BrandContainer>
         <StyledLink link="/">
-          <Title><span>F1</span> by awsm</Title>
+          <Title><span>San Staffing</span></Title>
         </StyledLink>
         <MobileMenu />
       </BrandContainer>

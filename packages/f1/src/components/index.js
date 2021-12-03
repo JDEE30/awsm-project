@@ -6,7 +6,7 @@ import Footer from "./footer/footer";
 import List from "./list";
 import Post from "./post";
 import Page from "./pages/page";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/homepage";
 import Jobs from "./pages/jobs";
 import Loading from "./loading";
 import Title from "./title";

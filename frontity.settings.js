@@ -15,23 +15,23 @@ const settings = {
           "menu": [
             [
               "HomePage",
-              "./pages/HomePage"
+              "./HomePage"
             ],
             [
               "About us",
-              "/About us"
+              "./pages/Aboutus"
             ],
             [
               "Nurses",
-              "/Nurses"
+              "./pages/Nurses"
             ],
             [
               "Employers",
-              "/Employers"
+              "./pages/Employers"
             ],
             [
               "Contact us",
-              "/Contact us"
+              "./pages/Contactus"
             ],
             [
               "Blog",
@@ -50,7 +50,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://test.frontity.org",
+          "homepage": "./pages/HomePage",
         }
       }
     },

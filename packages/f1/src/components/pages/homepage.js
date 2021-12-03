@@ -4,7 +4,7 @@ import Link from "../link";
 import List from "../list";
 //import Image from "@frontity/components/image";
 
-/* 
+
 const HomePage = ({ state, actions, libraries }) => {
   // Get information about the current URL.
   const data = state.source.get(state.router.link);
@@ -30,7 +30,6 @@ const HomePage = ({ state, actions, libraries }) => {
   ) : null;
 };
 
-*/
 export default connect(HomePage);
 
 const Container = styled.div`

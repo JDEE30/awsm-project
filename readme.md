@@ -1,6 +1,10 @@
 ### About awsm project.
 
 This is a full stack react app created for a nursing temp service.
+-- more info about this project
+
+
+##Build instructions below:
 
 
 

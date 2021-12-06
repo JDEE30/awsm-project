@@ -1,3 +1,26 @@
+### About awsm project.
+
+This is a full stack react app created for a nursing temp service.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Script

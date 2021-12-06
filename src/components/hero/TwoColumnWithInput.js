@@ -53,10 +53,10 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Designer Jewelry <span tw="text-primary-500">Affordable prices &#x1f49c;</span>
+              San Staffing<span tw="text-primary-500"> - Where Nurses find jobs</span>
             </Heading>
             <Paragraph>
-              Get amazing deals when you sign up for our news letter.
+            We are a Texas-based staffing agency where Nurse Practitioners and Registered nurses find valuable opportunities in hospital-based work, private doctor's offices, and more.
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />

@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Our platform employs Texas Nurses into full time remote and onsite job opportunities" }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -71,10 +71,16 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      description: "Liscenced and fully screened medical professionals for hire"
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
+    { imageSrc: SupportIconImage, title: "High quality nursing jobs",
+    description: "We hire high quality canidates to assist our quality employers."
+  },
+        
+    { imageSrc: CustomizeIconImage, title: "Customizable",
+  
+    description: "We hire high quality canidates to assist our quality employers."
+  },
     { imageSrc: ReliableIconImage, title: "Reliable" },
     { imageSrc: FastIconImage, title: "Fast" },
     { imageSrc: SimpleIconImage, title: "Easy" }
@@ -93,12 +99,12 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
           <Column key={i}>
             <Card>
               <span className="imageContainer">
-                <img src={card.imageSrc || defaultCardImage} alt="" />
+                <img src={card.imageSrc || defaultCardImage} alt="sheild" />
               </span>
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
+                  {card.description || "Our platform employs Texas Nurses into full time remote and onsite job oppurtunities"}
                 </p>
               </span>
             </Card>

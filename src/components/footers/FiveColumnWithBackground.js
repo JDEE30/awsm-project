@@ -57,13 +57,13 @@ export default () => {
 
             <LinkList>
               <LinkListItem>
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">About</Link>
+                <Link href="./about">About</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Contact</Link>
+                <Link href="./contact">Contact</Link>
               </LinkListItem>
            
             </LinkList>

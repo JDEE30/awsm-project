@@ -40,7 +40,7 @@ const StepHeading = tw.h6`leading-none text-xl font-semibold`;
 const StepDescription = tw.p`mt-3 max-w-xs leading-loose text-sm text-gray-600 font-medium`;
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "Join our Nurses",
   heading = (
     <>
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
@@ -59,16 +59,16 @@ export default ({
 
   const defaultSteps = [
     {
+      heading: "Click",
+      description: "Go to our page titled nurses."
+    },
+    {
       heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      description: "Fill out the form with your information"
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
-    },
-    {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      heading: "work",
+      description: "Once you register your information into our system, we can start to find roles you are qualifed for."
     }
   ];
 

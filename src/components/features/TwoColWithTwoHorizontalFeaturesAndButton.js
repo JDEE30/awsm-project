@@ -63,12 +63,12 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      Founded & run by <span tw="text-primary-500">Registered Healthcare Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Our staffing agency strives to deliver the best service we can to your business whether that is a private practice, a hospital, your home, a business, school, or any other place nurses are needed.",
   primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "https://sanstaffing.com/FindNurses",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -91,7 +91,7 @@ export default ({
     {
       Icon: BriefcaseIcon,
       title: "Professionalism",
-      description: "We have the best professional marketing people across the globe just to work with you.",
+      description: "Professional, educated, and experienced nursing professionals at your fingertips.",
       iconContainerCss: tw`bg-teal-300 text-teal-800`
     },
     {

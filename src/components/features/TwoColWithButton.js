@@ -44,12 +44,12 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      Created by Nurses <span tw="text-primary-500">for Nurses</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  description = "The best way to ensure you find the work, pay, and benefits you deserve as Nurse, is to work with people who have been in your shoes. This Nurse staffing agency takes the guesswork out of healthcare and gets you back into scrubs and doing work that matters. ",
+  primaryButtonText = "Apply for Nurse jobs",
+  primaryButtonUrl = "https://sanstaffing.com",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,

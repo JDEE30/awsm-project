@@ -55,7 +55,7 @@ export default () => {
         subheading={<Subheading>VALUES</Subheading>}
         heading={
           <>
-            We Always Abide by Our <HighlightedText>Principles.</HighlightedText>
+            Integrity driven  <HighlightedText>Staffing Agency.</HighlightedText>
           </>
         }
         imageSrc={prototypeIllustrationImageSrc}
@@ -70,71 +70,49 @@ export default () => {
           {
             Icon: BriefcaseIcon,
             title: "Professionalism",
-            description: "We assure you that our templates are designed and created by professional designers.",
+            description: "Our professional team of Nurses are here to help you land your next nursing role. We cater to all types of businesses in need of help in filling their healthcare roles.",
             iconContainerCss: tw`bg-red-300 text-red-800`
           }
         ]}
       />
-      <Pricing
-        subheading={<Subheading>Pricing</Subheading>}
-        heading={
-          <>
-            Reasonable & Flexible <HighlightedText>Plans.</HighlightedText>
-          </>
-        }
-        plans={[
-          {
-            name: "Personal",
-            price: "$17.99",
-            duration: "Monthly",
-            mainFeature: "For Individuals",
-            features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
-          },
-          {
-            name: "Business",
-            price: "$37.99",
-            duration: "Monthly",
-            mainFeature: "For Small Businesses",
-            features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
-            featured: true
-          },
-          {
-            name: "Enterprise",
-            price: "$57.99",
-            duration: "Monthly",
-            mainFeature: "For Large Companies",
-            features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
-          }
-        ]}
-      />
+    
       <Testimonial
-        subheading={<Subheading>Testimonials</Subheading>}
+        subheading={<Subheading>What? + Who?</Subheading>}
         heading={
           <>
-            Our Clients <HighlightedText>Love Us.</HighlightedText>
+            We connect companies <HighlightedText> with nurses </HighlightedText>
           </>
         }
         testimonials={[
           {
-            stars: 5,
-            profileImageSrc:
-              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-            heading: "Amazing User Experience",
+
+            heading: "Doctors offices!",
             quote:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-            customerName: "Charlotte Hale",
-            customerTitle: "Director, Delos Inc."
-          },
+              "Our expert level Registered Nurses, Nurse practitioners, licensed practical nuruses, Certified Nursing Assistants, Vocational Nurses and, labor/delivery Nurses are here to help your business succeed. ",
+                  },
           {
-            stars: 5,
-            profileImageSrc:
-              "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-            heading: "Love the Developer Experience and Design Principles !",
+          
+            heading: "Hospitals!",
             quote:
-              "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            customerName: "Adam Cuppy",
-            customerTitle: "Founder, EventsNYC"
-          }
+              "We have Nurses with many different backgrounds ready to start work at your facilities.",
+                    },
+                    {
+
+                      heading: "Home Healthcare!",
+                      quote:
+                        "Registered home health care nurses, Certified Nursing assistants, and liscenced vocational nurses ready to work. ",
+                            },
+{
+                            heading: "Private companies!",
+                            quote:
+                              "We curate highly qualified nurses to work for your private company on a consistent basis, per diem basis, short term basis or whatever you need.",
+                                  },
+                                  {
+                                  heading: "Schools!",
+                                  quote:
+                                    "Are you hiring for a local college, high school, middle school etc? No worries, we have registered qualified nurses for the public and private education sector as well.",
+                                        },
+
         ]}
       />
       <FAQ
@@ -146,34 +124,34 @@ export default () => {
         }
         faqs={[
           {
-            question: "Are all the templates easily customizable ?",
+            question: "How do we hire nurses for our company?",
             answer:
-              "Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "It's very simple. Just fill out the form in our employer section, the link to this page is located at the top of this page. Once you get there just fill out the form and someone will get back to you ASAP."
           },
           {
-            question: "How long do you usually support an standalone template for ?",
+            question: "Is there a minumum or maxiumum amount of days / hours we can staff nurses?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "There is no minumum or maximum per day, week, month, year unless indicated by your state or local laws."
           },
           {
             question: "What kind of payment methods do you accept ?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "We are currently accepting checks and debit, credit cards for the time being."
           },
           {
-            question: "Is there a subscribption service to get the latest templates ?",
+            question: "Does San Staffing drug test and perform background checks?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Yes, every applicant is drug tested, background checked, and fully vetted prior to their first day of work."
           },
           {
-            question: "Are the templates compatible with the React ?",
+            question: "how do you protect user data",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Form submissions are secured with industry standard SSL protection, and stored in a secure server with secure network protocol transfers to comply with industry standards, hippa and various applicable laws. Your user data is not shared with anyone with out your direct permission."
           },
           {
-            question: "Do you really support Internet Explorer 11 ?",
+            question: "How do I hire San Staffing Nurses?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Click on the employer tab at the top of this web page. Fill out the form and someone will get back to you ASAP."
           }
         ]}
       />

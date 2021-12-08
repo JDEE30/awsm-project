@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Our platform employs Texas Nurses into full time remote and onsite job opportunities" }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Our Nurse owned staffing agency platform employs Nurses into full time remote and onsite job opportunities." }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -70,20 +70,25 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
   const defaultCards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
-      description: "Liscenced and fully screened medical professionals for hire"
+      title: "Registered nurses",
+      description: "Surgical Assistants, Home Care, Emergency Room, Critical Care, Oncology, and Advanced Practice Registered Nurses available."
     },
-    { imageSrc: SupportIconImage, title: "High quality nursing jobs",
-    description: "We hire high quality canidates to assist our quality employers."
+    { imageSrc: SupportIconImage, title: "Certified Nursing Assistants",
+    description: "Our qualified and screened CNA's are ready to assist your office."
   },
         
-    { imageSrc: CustomizeIconImage, title: "Customizable",
+    { imageSrc: CustomizeIconImage, title: "Licensed Practical Nurses",
   
-    description: "We hire high quality canidates to assist our quality employers."
+    description: "Our fully screened and qualified LPN's are here to help you in your private MD practice, hospital work, etc."
   },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: ReliableIconImage, title: "Vocational Nurses",
+  description: "Our vocational nurses come from all over, and we are ready to send them your way!"
+},
+    { imageSrc: FastIconImage, title: "Labor and Delivery Nurses",
+  description: "We have Labor and Delivery nurses available to assist mothers through labor and delivery, perform cognitive tests on newborn babies, help parents select a plan of care, and assist in the post-delivery care of both mother and child."
+  },
+    { imageSrc: SimpleIconImage, title: "Nurse Practitioners", 
+  description: "Our Nurse Practitioners are ready to Examine patients, diagnose health problems, analyze test results and administer medications and treatments." }
   ];
 
   if (!cards) cards = defaultCards;
@@ -104,7 +109,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
                 <p className="description">
-                  {card.description || "Our platform employs Texas Nurses into full time remote and onsite job oppurtunities"}
+                  {card.description || "Our nurse owned staffing agency platform employs Nurses into full time remote and onsite job oppurtunities"}
                 </p>
               </span>
             </Card>

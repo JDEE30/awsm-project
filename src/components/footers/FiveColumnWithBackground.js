@@ -53,73 +53,34 @@ export default () => {
       <Content>
         <FiveColumns>
           <Column>
-            <ColumnHeading>Main</ColumnHeading>
+          <ColumnHeading>General</ColumnHeading>
+
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
+                <Link href="#">Home</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">FAQs</Link>
+                <Link href="#">About</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Support</Link>
+                <Link href="#">Contact</Link>
               </LinkListItem>
-              <LinkListItem>
-                <Link href="#">About Us</Link>
-              </LinkListItem>
+           
             </LinkList>
           </Column>
           <Column>
-            <ColumnHeading>Product</ColumnHeading>
+            <ColumnHeading>Employment</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Log In</Link>
+                <Link href="./nurse-jobs">Nurse Jobs</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Personal</Link>
+                <Link href="./hire-nurses">Hire Nurses</Link>
               </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Business</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Team</Link>
-              </LinkListItem>
-            </LinkList>
+                     </LinkList>
           </Column>
-          <Column>
-            <ColumnHeading>Press</ColumnHeading>
-            <LinkList>
-              <LinkListItem>
-                <Link href="#">Logos</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Events</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Stories</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Office</Link>
-              </LinkListItem>
-            </LinkList>
-          </Column>
-          <Column>
-            <ColumnHeading>Team</ColumnHeading>
-            <LinkList>
-              <LinkListItem>
-                <Link href="#">Career</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Founders</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Culture</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Onboarding</Link>
-              </LinkListItem>
-            </LinkList>
-          </Column>
+      
+        
           <Column>
             <ColumnHeading>Legal</ColumnHeading>
             <LinkList>
@@ -142,11 +103,11 @@ export default () => {
         <ThreeColRow>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>Treact Inc.</LogoText>
+            <LogoText>San Staffing</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2018 Treact Inc. All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2021 San Staffing LLC All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink href="https://linkedin.com">
               <FacebookIcon />
             </SocialLink>
             <SocialLink href="https://twitter.com">

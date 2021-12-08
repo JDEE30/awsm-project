@@ -53,10 +53,12 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              San Staffing<span tw="text-primary-500"> - Where Nurses find jobs</span>
+              San Staffing<span tw="text-primary-500"> - The top nurse staffing agency near you.</span>
             </Heading>
             <Paragraph>
-            We are a Texas-based staffing agency where Nurse Practitioners and Registered nurses find valuable opportunities in hospital-based work, private doctor's offices, and more.
+            Nurse staffing for travel nurses, per diem staff, permanent nurses, interim nurse leaders and more. San Staffing will connect you to the largest and most diverse pool of nurses.
+
+
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />

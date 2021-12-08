@@ -144,7 +144,7 @@ export default () => {
               "Yes, every applicant is drug tested, background checked, and fully vetted prior to their first day of work."
           },
           {
-            question: "how do you protect user data",
+            question: "How do we protect user data",
             answer:
               "Form submissions are secured with industry standard SSL protection, and stored in a secure server with secure network protocol transfers to comply with industry standards, hippa and various applicable laws. Your user data is not shared with anyone with out your direct permission."
           },

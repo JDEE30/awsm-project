@@ -60,10 +60,10 @@ export default () => {
                 <Link href="/">Home</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="./about">About</Link>
+                <Link href="/AboutUs">About</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="./contact">Contact</Link>
+                <Link href="/ContactUs">Contact</Link>
               </LinkListItem>
            
             </LinkList>

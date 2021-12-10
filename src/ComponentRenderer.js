@@ -159,7 +159,7 @@ export const components = {
     },
     AboutUsPage: {
       component: AboutUsPage,
-      url: `/components/innerPages/AboutUsPage`,
+      url: `/AboutUsPage`,
       imageSrc: AboutUsPageImageSrc,
     },
     ContactUsPage: {

@@ -9,6 +9,8 @@ import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 import logo from "../../images/logo.svg";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
+import AboutUsPage from "pages/AboutUs.js";
+
 
 const Header = tw.header`
   flex justify-between items-center
@@ -73,11 +75,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/">Home</NavLink>
-      <NavLink href="/about">About</NavLink>
+      <NavLink href="/AboutUsPage">About</NavLink>
       <NavLink href="/nurse-jobs">Nurses</NavLink>
       <NavLink href="/hire-nurses">Employers</NavLink>
 
-         <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Contact</PrimaryLink>
+         <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/ContactUs">Contact</PrimaryLink>
     </NavLinks>
   ];
 

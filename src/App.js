@@ -127,7 +127,7 @@ export default function App() {
         <Route path="/">
           <SaaSProductLandingPage />
         </Route>      
-        <Route path="/AboutUsPage">
+        <Route path="/aboutuspage">
           <AboutUsPage />
         </Route>      
       </Switch>

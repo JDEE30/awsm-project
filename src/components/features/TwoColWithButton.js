@@ -47,9 +47,9 @@ export default ({
       Created by Nurses <span tw="text-primary-500">for Nurses</span>
     </>
   ),
-  description = "The best way to ensure you find the work, pay, and benefits you deserve as Nurse, is to work with people who have been in your shoes. This Nurse staffing agency takes the guesswork out of healthcare and gets you back into scrubs and doing work that matters. ",
+  description = "Our mission is to find nurses work with amazing employers. Whether you are or need a registered nurse, Certified nursing assistant, vocational Nurse, or Nurse practioneer we are here to help. Just use the link below to reach out. ",
   primaryButtonText = "Apply for Nurse jobs",
-  primaryButtonUrl = "https://sanstaffing.com",
+  primaryButtonUrl = "/components/innerPages/NurseJobs",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,

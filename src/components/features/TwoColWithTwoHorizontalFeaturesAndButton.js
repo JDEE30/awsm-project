@@ -68,7 +68,7 @@ export default ({
   ),
   description = "Our staffing agency strives to deliver the best service we can to your business whether that is a private practice, a hospital, your home, a business, school, or any other place nurses are needed.",
   primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://sanstaffing.com/FindNurses",
+  primaryButtonUrl = "http://localhost:3002/components/innerPages/AboutUsPage",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,

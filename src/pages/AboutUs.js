@@ -10,8 +10,6 @@ import MainFeature1 from "components/features/TwoColWithButton.js";
 // import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
 import Features from "components/features/ThreeColSimple.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
-import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
-
 import SupportIconImage from "images/support-icon.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomerLoveIconImage from "images/simple-icon.svg";
@@ -22,15 +20,14 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature1
-        subheading={<Subheading>About Treact</Subheading>}
-        heading="We are a modern design agency."
+        subheading={<Subheading>About San Staffing</Subheading>}
+        heading="We are a modern nurse staffing agency agency."
         buttonRounded={false}
-        primaryButtonText="See Portfolio"
         imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the design space."
+        heading="We aim to disrupt the nurse staffing space."
         buttonRounded={false}
         primaryButtonText="Contact Us"
         imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
@@ -39,29 +36,27 @@ export default () => {
       <Features
         subheading={<Subheading>Our Values</Subheading>}
         heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Integrity - Honesty - Fairness"
         cards={[
           {
             imageSrc: SupportIconImage,
             title: "24/7 Support",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            description: "We have nurses for all shifts."
           },
           {
             imageSrc: ShieldIconImage,
             title: "Strong Teams",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            description: "Our experienced registerred nurses are here to offer their experience to your business"
           },
           {
             imageSrc: CustomerLoveIconImage,
             title: "Customer Satisfaction",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            description: "We offer great services, so we only recieve great reviews."
           },
         ]}
         linkText=""
       />
-      <TeamCardGrid 
-        subheading={<Subheading>Our Team</Subheading>}
-      />
+   
       <Footer />
     </AnimationRevealPage>
   );

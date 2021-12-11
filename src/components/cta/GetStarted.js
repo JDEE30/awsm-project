@@ -25,9 +25,9 @@ const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 tr
 export default ({
   text = "Companies everywhere are using San Staffing",
   primaryLinkText = "Apply",
-  primaryLinkUrl = "./nurse-jobs",
+  primaryLinkUrl = "/components/innerPages/NurseJobs",
   secondaryLinkText = "Hire",
-  secondaryLinkUrl = "./hire-nurses",
+  secondaryLinkUrl = "/components/innerPages/HireNurses",
   pushDownFooter = true
 }) => {
   return (

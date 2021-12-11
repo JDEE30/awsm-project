@@ -27,6 +27,8 @@ import ContactUsPage from "pages/ContactUs.js";
 import BlogIndexPage from "pages/BlogIndex.js";
 import TermsOfServicePage from "pages/TermsOfService.js";
 import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
+import NurseJobs from 'pages/NurseJobs';
+import HireNurses from 'pages/HireNurses';
 
 import LoginPageImageSrc from "images/demo/LoginPage.jpeg";
 import SignupPageImageSrc from "images/demo/SignupPage.jpeg";
@@ -88,6 +90,8 @@ import SimpleContactUsForm from "components/forms/SimpleContactUs.js";
 import SimpleSubscribeNewsletterForm from "components/forms/SimpleSubscribeNewsletter.js";
 import TwoColContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
 import TwoColContactUsFullForm from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
+import NurseHireForm from 'components/forms/NurseHireForm.js';
+import NurseJobForm from 'components/forms/NurseJobForm.js';
 
 import GetStartedCTA from "components/cta/GetStarted.js";
 import GetStartedLightCTA from "components/cta/GetStartedLight.js";
@@ -159,7 +163,7 @@ export const components = {
     },
     AboutUsPage: {
       component: AboutUsPage,
-      url: `/AboutUsPage`,
+      url: `/components/innerPages/`,
       imageSrc: AboutUsPageImageSrc,
     },
     ContactUsPage: {
@@ -181,7 +185,17 @@ export const components = {
       component: PrivacyPolicyPage,
       url: `/components/innerPages/PrivacyPolicyPage`,
       imageSrc: PrivacyPolicyPageImageSrc,
-    }
+    },
+      HireNurses: {
+        component: HireNurses,
+        url: `/components/innerPages/HireNurses`,
+        imageSrc: ContactUsPageImageSrc,
+      },
+       NurseJobs: {
+          component: NurseJobs,
+          url: `/components/innerPages/NurseJobs`,
+          imageSrc: ContactUsPageImageSrc,
+       }
   },
 
   blocks: {
@@ -447,6 +461,16 @@ export const components = {
           name: "Two Column Contact Us - Full Form",
           component: TwoColContactUsFullForm,
           url: "/components/blocks/Form/TwoColContactUsFull",
+        },
+        NurseHireForm: {
+          name: " Nurse Hire form  - Full Form",
+          component: NurseHireForm,
+          url: "/components/blocks/Form/NurseHireform",
+        },
+        NurseJobForm: {
+          name: "Nurse Job Form - Full Form",
+          component: NurseJobForm,
+          url: "/components/blocks/Form/NurseJobForm",
         },
       }
     },

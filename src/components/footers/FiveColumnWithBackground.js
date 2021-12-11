@@ -60,10 +60,10 @@ export default () => {
                 <Link href="/">Home</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="/AboutUs">About</Link>
+                <Link href="/components/innerPages/AboutUsPage">About</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="/ContactUs">Contact</Link>
+                <Link href="/components/innerPages/ContactUsPage">Contact</Link>
               </LinkListItem>
            
             </LinkList>
@@ -72,10 +72,10 @@ export default () => {
             <ColumnHeading>Employment</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="./nurse-jobs">Nurse Jobs</Link>
+                <Link href="/components/innerPages/NurseJobs">Nurse Jobs</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="./hire-nurses">Hire Nurses</Link>
+                <Link href="/components/innerPages/HireNurses">Hire Nurses</Link>
               </LinkListItem>
                      </LinkList>
           </Column>

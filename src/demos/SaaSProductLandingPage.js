@@ -19,6 +19,8 @@ import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefc
 import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
 import AboutUsPage from "pages/AboutUs.js";
 
+window.gtag("js", new Date());
+window.gtag("config", "G-7E2C1RJP52");
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;

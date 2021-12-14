@@ -13,6 +13,7 @@ import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
 import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
+import NurseVectorImage from "images/nurses-at-work.jpg";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
@@ -39,7 +40,7 @@ export default () => {
       />
       <MainFeature
         subheading={<Subheading>Quality Work</Subheading>}
-        imageSrc={heroScreenshotImageSrc}
+        imageSrc={NurseVectorImage}
         imageBorder={true}
         imageDecoratorBlob={true}
       />

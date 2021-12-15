@@ -23,7 +23,7 @@ export default () => {
       <Header />
       <MainFeature1
         subheading={<Subheading>About San Staffing</Subheading>}
-        heading="We are a modern nurse staffing agency agency."
+        heading="We are a modern nurse staffing agency"
         buttonRounded={false}
         imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
       />

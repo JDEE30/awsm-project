@@ -13,6 +13,7 @@ import Features from "components/features/ThreeColSimple.js";
 import SupportIconImage from "images/support-icon.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomerLoveIconImage from "images/simple-icon.svg";
+import caduceus from "images/caduceus-2.svg";
 window.gtag("js", new Date());
 window.gtag("config", "G-7E2C1RJP52");
 
@@ -23,16 +24,16 @@ export default () => {
       <Header />
       <MainFeature1
         subheading={<Subheading>About San Staffing</Subheading>}
-        heading="We are a modern nurse staffing agency"
+        heading="We are a modern medical staffing agency"
         buttonRounded={false}
-        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        imageSrc="https://ik.imagekit.io/jpzl8rqva8m/caduceus-2_zDrvyBGheC.png"
       />
       <MainFeature1
         subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the nurse staffing space."
+        heading="We aim to disrupt the nurse and medical staffing space."
         buttonRounded={false}
         primaryButtonText="Contact Us"
-        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+        imageSrc="https://ik.imagekit.io/jpzl8rqva8m/vecteezy_doctors-and-nurses-working-and-fighting-the-coronavirus__oAVCZF95sqT.jpg"
         textOnLeft={false}
       />
       <Features

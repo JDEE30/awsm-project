@@ -14,6 +14,7 @@ import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
 import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
 import NurseVectorImage from "images/nurses-at-work.png";
+import GetStartedVector from "images/undraw_mobile_app_re_catg.svg";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
 import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
@@ -52,7 +53,7 @@ export default () => {
           </>
         }
         textOnLeft={false}
-        imageSrc={macHeroScreenshotImageSrc}
+        imageSrc={GetStartedVector}
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
@@ -154,7 +155,7 @@ export default () => {
               "Form submissions are secured with industry standard SSL protection, and stored in a secure server with secure network protocol transfers to comply with industry standards, hippa and various applicable laws. Your user data is not shared with anyone with out your direct permission."
           },
           {
-            question: "How do I hire San Staffing Nurses?",
+            question: "How do I hire San Staffing Nurses and other medical professionals?",
             answer:
               "Click on the employer tab at the top of this web page. Fill out the form and someone will get back to you ASAP."
           }

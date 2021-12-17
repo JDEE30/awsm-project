@@ -81,21 +81,7 @@ export default () => {
 
 
 <Column>
-<ColumnHeading>Legal</ColumnHeading>
-<LinkList>
-  <LinkListItem>
-    <Link href="#">GDPR</Link>
-  </LinkListItem>
-  <LinkListItem>
-    <Link href="#">Privacy Policy</Link>
-  </LinkListItem>
-  <LinkListItem>
-    <Link href="#">Terms of Service</Link>
-  </LinkListItem>
-  <LinkListItem>
-    <Link href="#">Disclaimer</Link>
-  </LinkListItem>
-</LinkList>
+
 </Column>
   
         </SixColumns>
@@ -106,17 +92,7 @@ export default () => {
             <LogoText>San Staffing</LogoText>
           </LogoContainer>
           <CopywrightNotice>&copy; 2021 San Staffing  All Rights Reserved.</CopywrightNotice>
-          <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
-              <FacebookIcon />
-            </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
-            </SocialLink>
-          </SocialLinksContainer>
+         
         </ThreeColRow>
       </Content>
     </Container>

@@ -34,9 +34,9 @@ const Textarea = styled(Input).attrs({as: "textarea"})`
 const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
 
 export default ({
-  subheading = "Contact Us",
-  heading = <>Nurses, Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
-  description = "Send in your application to us here.",
+  subheading = "Hire medical Professionals",
+  heading = <>Are you a company looking to hire our medical staff?<span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
+  description = "Tell us what you need, how much staffing you need, and when you need us by?",
   submitButtonText = "Send",
   formAction = "#",
   formMethod = "get",
@@ -58,8 +58,8 @@ export default ({
             <Form action={formAction} method={formMethod}>
               <Input type="email" name="email" placeholder="Your Email Address" />
               <Input type="text" name="name" placeholder="Full Name" />
-              <Input type="text" name="subject" placeholder="Subject" />
-              <Textarea name="message" placeholder="Your Message Here" />
+              <Input type="text" name="subject" placeholder="Company name + number of staff needed" />
+              <Textarea name="message" placeholder="Phone number, best time to call, how soon do you need staffing? etc.." />
               <SubmitButton type="submit">{submitButtonText}</SubmitButton>
             </Form>
           </TextContent>

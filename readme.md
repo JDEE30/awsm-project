@@ -1,7 +1,7 @@
 ### About awsm project.
 
 This is a full stack react app created for a nursing temp service.
-
+Beta testing will be available at test.sanstaffing.com by 01/01/2022
 
 
 

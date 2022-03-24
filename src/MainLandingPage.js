@@ -98,8 +98,8 @@ export default ({
   landingPages = components.landingPages,
   innerPages = components.innerPages,
   blocks = components.blocks,
-  heading = "San Staffing",
-  description = "Easily source Nurse Practitioners and Registered Nurses for your doctors office, hospital or other health practice with San Staffing."
+  heading = "SAM Staffing",
+  description = "Easily source Nurse Practitioners and Registered Nurses for your doctors office, hospital or other health practice with SAM Staffing."
 }) => {
   /*
    * Using gtag like this because we only want to use Google Analytics when Main Landing Page is rendered

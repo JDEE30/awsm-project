@@ -145,7 +145,7 @@ export default () => {
               "We are currently accepting checks and debit, credit cards for the time being."
           },
           {
-            question: "Does San Staffing drug test and perform background checks?",
+            question: "Does SAM Staffing drug test and perform background checks?",
             answer:
               "Yes, every applicant is drug tested, background checked, and fully vetted prior to their first day of work."
           },
@@ -155,7 +155,7 @@ export default () => {
               "Form submissions are secured with industry standard SSL protection, and stored in a secure server with secure network protocol transfers to comply with industry standards, hippa and various applicable laws. Your user data is not shared with anyone with out your direct permission."
           },
           {
-            question: "How do I hire San Staffing Nurses and other medical professionals?",
+            question: "How do I hire SAM Staffing Nurses and other medical professionals?",
             answer:
               "Click on the employer tab at the top of this web page. Fill out the form and someone will get back to you ASAP."
           }

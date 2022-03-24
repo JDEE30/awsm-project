@@ -89,20 +89,10 @@ export default () => {
         <ThreeColRow>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>San Staffing</LogoText>
+            <LogoText>SAM Staffing</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2021 San Staffing LLC All Rights Reserved.</CopywrightNotice>
-          <SocialLinksContainer>
-            <SocialLink href="https://linkedin.com">
-              <FacebookIcon />
-            </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
-            </SocialLink>
-            <SocialLink href="https://youtube.com">
-              <YoutubeIcon />
-            </SocialLink>
-          </SocialLinksContainer>
+          <CopywrightNotice>&copy; 2022 SAM Staffing LLC All Rights Reserved.</CopywrightNotice>
+        
         </ThreeColRow>
       </Content>
       <DecoratorBlobContainer>

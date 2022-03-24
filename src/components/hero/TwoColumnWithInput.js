@@ -53,11 +53,10 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              San Staffing<span tw="text-primary-500"> - The top nurse staffing agency near you.</span>
+              SAM Staffing<span tw="text-primary-500"> - The top nurse staffing agency near you.</span>
             </Heading>
             <Paragraph>
-            Nurse staffing for travel nurses, per diem staff, permanent nurses, interim nurse leaders and more. San Staffing will connect you to the largest and most diverse pool of nurses.
-
+            SAM Staffing is the emerging leader in healthcare staffing in Texas with plans to expand Nation wide by 2023. We’ve helped facilities across our great state by placing on-demand nurses and allied professionals in as little as 24 hours. Select from our certified RNs, LPNs, EMTs, CNAs, pharmacists, respiratory therapists and more.
 
             </Paragraph>
             <Actions>

@@ -23,7 +23,7 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature1
-        subheading={<Subheading>About San Staffing</Subheading>}
+        subheading={<Subheading>About SAM Staffing</Subheading>}
         heading="We are a modern medical staffing agency"
         buttonRounded={false}
         imageSrc="https://ik.imagekit.io/jpzl8rqva8m/caduceus-2_zDrvyBGheC.png"

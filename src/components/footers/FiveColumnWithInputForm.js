@@ -89,9 +89,9 @@ export default () => {
         <ThreeColRow>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>San Staffing</LogoText>
+            <LogoText>SAM Staffing</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2021 San Staffing  All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2021 SAM Staffing  All Rights Reserved.</CopywrightNotice>
          
         </ThreeColRow>
       </Content>

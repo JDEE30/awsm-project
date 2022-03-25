@@ -31,14 +31,37 @@ const Textarea = styled(Input).attrs({as: "textarea"})`
   ${tw`h-24`}
 `
 
+
 const SubmitButton = tw(PrimaryButtonBase)`inline-block mt-8`
+
+const handleFormSubmission = (target) => {
+  
+  target.preventDefault()
+  
+  const object = {
+    to: "employer",
+    email: target.target.email.value,
+    fullName: target.target.name.value,
+    subject: target.target.subject.value,
+    body: target.target.message.value,
+  };
+
+  fetch("http://localhost:5000/join", {
+    method: "POST",
+    headers: {'Content-Type': 'application/json'}, 
+    body: JSON.stringify(object)
+  }).then(res => {
+    console.log("Request complete! response:", res);
+    alert("Complete!")
+  });
+
+}
 
 export default ({
   subheading = "Hire medical Professionals",
   heading = <>Are you a company looking to hire our medical staff?<span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
   description = "Tell us what you need, how much staffing you need, and when you need us by?",
   submitButtonText = "Send",
-  formAction = "#",
   formMethod = "get",
   textOnLeft = true,
 }) => {
@@ -55,7 +78,7 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
-            <Form action={formAction} method={formMethod}>
+            <Form onSubmit={handleFormSubmission} method={formMethod}>
               <Input type="email" name="email" placeholder="Your Email Address" />
               <Input type="text" name="name" placeholder="Full Name" />
               <Input type="text" name="subject" placeholder="Company name + number of staff needed" />

@@ -46,6 +46,26 @@ const CustomersLogoStrip = styled.div`
 `;
 
 export default ({ roundedHeaderButton }) => {
+
+  const signUpForMail = (e) => {
+    e.preventDefault();
+
+    const object = {
+      email: e.target.email.value,
+      to: "mailing"
+    }
+
+    fetch("http://localhost:5000/join", {
+      method: "POST",
+      headers: {'Content-Type': 'application/json'}, 
+      body: JSON.stringify(object)
+    }).then(res => {
+      console.log("Request complete! response:", res);
+      alert("Complete!")
+    });
+
+  }
+
   return (
     <>
       <Header roundedHeaderButton={roundedHeaderButton} />
@@ -60,8 +80,10 @@ export default ({ roundedHeaderButton }) => {
 
             </Paragraph>
             <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
-              <button>Get Started</button>
+              <form onSubmit={signUpForMail}>
+                <input type="text" required name="email" placeholder="Your E-mail Address" />
+                <button type="submit">Get Started</button>
+              </form>
             </Actions>
             <CustomersLogoStrip>
               <p>Our TRUSTED Customers</p>

@@ -47,7 +47,7 @@ const handleFormSubmission = (target) => {
     body: target.target.message.value,
   };
 
-  fetch("http://localhost:5000/join", {
+  fetch("https://server.samstaffing.com/join", {
     method: "POST",
     headers: {'Content-Type': 'application/json'}, 
     body: JSON.stringify(object)

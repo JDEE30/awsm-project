@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
-import LogoImage from "images/logo.svg";
+import LogoImage from "images/logo192.svg";
 import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
@@ -91,7 +91,7 @@ export default () => {
             <LogoImg src={LogoImage} />
             <LogoText>SAM Staffing</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2021 SAM Staffing  All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2022 SAM Staffing  All Rights Reserved.</CopywrightNotice>
          
         </ThreeColRow>
       </Content>

@@ -41,7 +41,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
 export default ({
   subheading = "FAQS",
   heading = "You have Questions ?",
-  description = "And we have got answers to all of them. If you can't find an answer to your question here, feel free to give us a call or email us at sanstaffing@yahoo.com",
+  description = "And we have got answers to all of them. If you can't find an answer to your question here, feel free to give us a call or email us at contact@samstaffing.com",
   faqs = [
     {
       question: "Is lunch provided free of cost ?",

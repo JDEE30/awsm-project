@@ -1,6 +1,6 @@
 {
-  "name": "SAM Staffing",
-  "version": "0.2.0",
+  "name": "awsm-project",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@owaiswiz/use-in-view": "^1.0.16",
